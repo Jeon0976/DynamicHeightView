@@ -17,14 +17,12 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description  = <<-DESC
-                    HI
-                    DESC
+  s.description  =  "HIHI"
 
   s.homepage         = 'https://github.com/Jeon0976/DynamicHeightView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jeon0976' => 'jsh097610@gmail.com' }
-  s.source           = { :git => 'https://github.com/Jeon0976/DynamicHeightView', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Jeon0976/DynamicHeightView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '16.0'
